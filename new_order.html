@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Truckr Technologies</title>
+	<link rel="icon" type="image" href="favicon.ico">
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/minified/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/minified/core.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/minified/components.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/minified/colors.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script type="text/javascript" src="assets/js/plugins/loaders/pace.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script type="text/javascript" src="assets/js/plugins/forms/wizards/steps.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/selects/select2.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jasny_bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/validation/validate.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/extensions/cookie.js"></script>
+
+	<script type="text/javascript" src="assets/js/core/app.js"></script>
+	<script type="text/javascript" src="assets/js/pages/wizard_form.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body class="navbar-top">
+
+	<!-- Main navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="index.html"><img src="assets/images/truckr_logo.png" alt=""></a>
+
+			<ul class="nav navbar-nav pull-right visible-xs-block">
+				<li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
+				<li><a class="sidebar-mobile-main-toggle"><i class="icon-paragraph-justify3"></i></a></li>
+			</ul>
+		</div>
+
+		<div class="navbar-collapse collapse" id="navbar-mobile">
+			<ul class="nav navbar-nav">
+				<li><a class="sidebar-control sidebar-main-toggle hidden-xs"><i class="icon-paragraph-justify3"></i></a></li>
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"></a></li>
+
+				<li>
+					<a href="#">
+						<i class="icon-cog3"></i>
+						<span class="visible-xs-inline-block position-right">Icon link</span>
+					</a>						
+				</li><li>
+					<a href="#">
+						<i class="icon-envelop"></i>
+						<span class="visible-xs-inline-block position-right">Icon link</span>
+					</a>						
+				</li>
+
+				<li>
+					<a href="#">
+						<i class="icon-bell2"></i>
+						<span class="visible-xs-inline-block position-right">Icon link</span>
+					</a>						
+				</li>
+
+				<li class="dropdown dropdown-user">
+					<a class="dropdown-toggle" data-toggle="dropdown">
+						<img src="assets/images/Cjay.png" alt="">
+						<span>Cjay</span>
+						<i class="caret"></i>
+					</a>
+
+					<ul class="dropdown-menu dropdown-menu-right">
+						<li><a href="#"><i class="icon-user-plus"></i> My profile</a></li>
+						<li><a href="#"><i class="icon-coins"></i> My balance</a></li>
+						<li><a href="#"><span class="badge badge-warning pull-right">58</span> <i class="icon-comment-discussion"></i> Messages</a></li>
+						<li class="divider"></li>
+						<li><a href="#"><i class="icon-cog5"></i> Account settings</a></li>
+						<li><a href="#"><i class="icon-switch2"></i> Logout</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- /main navbar -->
+
+
+	<!-- Page container -->
+	<div class="page-container">
+
+		<!-- Page content -->
+		<div class="page-content">
+
+			<!-- Main sidebar -->
+			<div class="sidebar sidebar-main">
+				<div class="sidebar-content">
+
+					<!-- User menu -->
+					<div class="sidebar-user">
+						<div class="category-content">							
+						</div>
+					</div>
+					<!-- /user menu -->
+					<div class= "media">
+						<div class="media-righty">
+							<a href="#"><button  type="button" class="btn btn-default bolder"><i class="icon-truck"></i> <span>BOOK TRUCK</span></button></a>
+						</div>
+					</div>
+
+					<!-- Main navigation -->
+					<div class="sidebar-category sidebar-category-visible">
+						<div class="category-content no-padding">
+							<ul class="navigation navigation-main navigation-accordion">
+
+								<!-- Main -->
+								<li class="navigation-header"><span></span> <i class="icon-menu" title="Main pages"></i></li>
+								<li><a href="index.html"><i class="icon-home4"></i> <span>Dashboard</span></a></li>
+								<li>
+									<a href="#"><i class="icon-history"></i> <span>Trip History</span></a>
+									<ul>
+										<li><a href="completed.html" id="create"><i class="icon-checkmark-circle"></i>Completed Trips </a></li>
+										<li><a href="cancelled.html" id="schedule"><i class="icon-cancel-circle2"></i>Cancelled Trips</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="profile.html"><i class="icon-user"></i> <span>Profile</span></a>
+								</li>
+								<li>
+									<a href="map.html"><i class="icon-map4"></i> <span>Map</span></a>
+								</li>
+								<li><a href="message.html"><i class="icon-envelop"></i> <span>Message</span></a>
+								</li>
+								<li>
+									<a href="#"><i class="icon-calculator2"></i> <span>Transactions</span></a>
+									<ul>
+										<li><a href="transactionis_invoice.html"  id="invoices"> <i class="icon-file-text"></i>Invoices </a></li>
+										<li><a href="transactionis_payments.html" id="payments"> <i class="icon-cash3"></i>Payments</a></li>
+										<!-- <li><a href="#" id="wallet"> <i class="icon-wallet"></i>Wallet</a></li> -->
+									</ul>
+								</li>
+								<li>
+									<a href="schedule.html"><i class="icon-file-upload2"></i> <span>Upload a Schedule</span></a>
+								</li>
+								<li>
+									<a href="about.html"><i class="icon-info3"></i> <span>About</span></a>
+									
+								</li>
+								<li>
+									<a href="#"><i class="icon-lifebuoy"></i> <span>Support</span></a>
+									<ul>
+										<li><a href="support_faq.html" id="help"><i class="icon-aid-kit"></i>Help/FAQs </a></li>
+										<li><a href="report.html" id="report"><i class="icon-traffic-cone"></i>Report an Problem</a></li>
+									</ul>
+								</li>
+								<br>
+								<li>
+										<a href="#"><i class="icon-switch2"></i> <span>Logout</span></a>
+										
+									</li>
+								<!-- /main -->
+
+							</ul>
+						</div>
+					</div>
+					<!-- /main navigation -->
+
+				</div>
+			</div>
+			<!-- /main sidebar -->
+
+
+			<!-- Main content -->
+			<div class="content-wrapper">
+
+				<!-- Page header -->
+				<div class="page-header">
+					<div class="breadcrumb-line">
+						<ul class="breadcrumb">
+							<li><a href="index.html"><i class="icon-home2 position-left"></i> Dashboard</a></li>
+							<!-- <li><a href="new_order.html">New Order</a></li> -->
+							<li class="active">New Order</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /page header -->
+
+
+				<!-- Content area -->
+				<div class="content">
+
+					
+
+					<!-- Basic setup -->
+		            <div class="panel panel-white">
+						<div class="panel-heading">
+							<h5 class="panel-title text-bold">Kindly fill this form to create your order to book a truck</h5>
+							<div class="heading-elements">
+								<ul class="icons-list">
+			                		<li><a data-action="collapse"></a></li>
+			                		<!-- <li><a data-action="reload"></a></li>
+			                		<li><a data-action="close"></a></li> -->
+			                	</ul>
+		                	</div>
+						</div>
+
+	                	<form class="panel-body" action="#">
+							<fieldset class="step" id="step1">
+								<h6 class="form-wizard-title text-bold">
+									<span class="form-wizard-count">1</span>
+									CARGO DETAILS
+									<small class="display-block">Answer all question.</small>
+								</h6>
+
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>Type of Commodity<span class="text-danger">*</span></label>
+											<select name="commodity" data-placeholder="Select commodity"required="required" class="form-control">
+												<option></option>
+													<option value="8">Foods</option>
+													<option value="9">Equipment</option>
+													<option value="10">Construction Materials</option>
+													<option value="11">Electricals</option>
+													<option value="12">Oil & Gas</option>
+													<option value="13">Household & Office</option>
+													<option value="14">Breakables</option>
+											</select>
+										</div>
+									</div>
+
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>Vehicle Type<span class="text-danger">*</span></label>
+											<select name="vehicle" data-placeholder="Select vehicle" required="required" class="form-control">
+												<option></option>
+													<option value="opt1">Flatbed Truck</option>
+													<option value="opt2">Lowbed Truck</option>
+													<option value="opt3">Box/Straight Truck</option>
+													<option value="opt4">Refridgerated Truck</option>
+											</select>
+										</div>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label class="control-label">Weight of Commodity<span class="text-danger">*</span></label>											
+												<div class="input-group">													
+													<input type="text" name="input_group" class="form-control" required="required" placeholder="weight">
+													<span class="input-group-addon">Kg</span>
+												</div>										
+										</div>
+									</div>			
+
+									<div class="col-md-6">
+										<div class="form-group">
+											<label class="control-label">Value of Commodity<span class="text-danger">*</span></label>											
+												<div class="input-group">													
+													<input type="text" name="input_group" class="form-control" required="required" placeholder="weight">
+													<span class="input-group-addon">GHs</span>
+												</div>										
+										</div>
+									</div>
+								</div>
+
+							</fieldset>
+
+							<fieldset class="step" id="step2">
+								<h6 class="form-wizard-title text-bold">
+									<span class="form-wizard-count">2</span>
+									PICK UP DETAILS
+									<small class="display-block">Please input the details</small>
+								</h6>
+
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>Contact's Name<span class="text-danger">*</span></label>
+			                                <input type="text" name="contact_name" placeholder="name" required="required" class="form-control">
+		                                </div>
+									</div>
+
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>Contact's Phone Number<span class="text-danger">*</span></label>
+											<input type="text" name="tel" class="form-control" required="required" placeholder="012-3456-789" data-mask="999-9999-999">
+										</div>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>Pickup Address<span class="text-danger">*</span></label>
+			                                <input type="text" name="address" required="required" placeholder="Address" class="form-control">
+		                                </div>
+									</div>
+
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>Pickup date<span class="text-danger">*</span></label>
+											<input type="date" class="form-control" required="required" name="format-date" placeholder="dd/mm/yyyy">
+										</div>
+									</div>
+								</div>
+							</fieldset>
+
+							<fieldset class="step" id="step3">
+								<h6 class="form-wizard-title text-bold">
+									<span class="form-wizard-count">3</span>
+									DROP OFF DETAILS
+									<small class="display-block">Please input the details</small>
+								</h6>
+
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>Receipient 's Name<span class="text-danger">*</span></label>
+			                                <input type="text" name="contact_name" required="required" placeholder="name" class="form-control">
+		                                </div>
+									</div>
+
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>Receipient's Phone Number<span class="text-danger">*</span></label>
+											<input type="text" name="tel" class="form-control" required="required" placeholder="012-3456-789" data-mask="999-9999-999">
+											<span class="help-block">*This number will receive a text from Truckr*</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>Drop off Address<span class="text-danger">*</span></label>
+			                                <input type="text" name="address" placeholder="Address" required="required" class="form-control">
+		                                </div>
+									</div>
+
+									<div class="col-md-6">
+										<div class="form-group">
+											<label>Additional information:</label>
+		                                    <textarea name="additional-info" rows="5" cols="5" placeholder="Example Load the cargo as soon as you arrive." class="form-control"></textarea>
+	                                    </div>
+									</div>
+								</div>
+							</fieldset>
+							<div class="text-right">
+								<tr>
+									<td>
+									<button type="submit" class="btn btn-blacky" required="required" data-toggle="modal" data-target="#modal_theme_primary">Book a truck <i class="icon-arrow-right14 position-right"></i></button></td>
+								</tr>
+							</div>
+						</form>
+		            </div>
+					<!-- /basic setup -->
+					<!-- Primary modal -->
+					<div id="modal_theme_primary" class="modal fade">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header ">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h1 class="modal-title center">Transporting/Delivery Fee</h1>
+								</div>
+								<hr>
+
+								<div class="modal-body">
+									<h5 class="text-bold">Pick Up Location</h5>
+									<p>Accra Mall, Spintex Road, Accra</p>
+
+									<hr>
+
+									<h5 class="text-bold">Drop Off Location</h5>
+									<p>Tema, Ghana</p>
+
+									<hr>
+
+									<h5 class="text-bold">Fee</h5>
+									<i class="icon-spinner2 spinner position-left"></i>
+								</div>
+
+								<div class="modal-footer">
+									<button type="button" class="btn btn-link" data-dismiss="modal">Cancel</button>
+									<button type="button" class="btn btn-blacky"><a href="invoice.html" target="_blank">Pay Now</a></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /primary modal -->
+					
+					<!-- Footer -->
+					<div class="footer text-muted">
+						&copy; 2018. <a href="http://www.truckrtech.com" target="_blank">Truckr Technologies.</a> All Rights Reserved.
+					</div>
+					<!-- /footer -->
+
+				</div>
+				<!-- /content area -->
+
+			</div>
+			<!-- /main content -->
+
+		</div>
+		<!-- /page content -->
+
+	</div>
+	<!-- /page container -->
+
+</body>
+</html>
